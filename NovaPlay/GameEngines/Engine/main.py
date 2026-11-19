@@ -1,29 +1,17 @@
-# Import modules
-import sys
-import pygame
+import sys, pygame
 from game_loop import GameLoop
-# Initialize Pygame
 pygame.init()
-# Set up some constants
-WIDTH, HEIGHT = 640, 480
-BACKGROUND_COLOR = (0, 0, 0)
-# Set up the display
+WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-# Set up the game loop
-game_loop = GameLoop()
-# Game loop
+pygame.display.set_caption("NovaPlay ✨")
+clock = pygame.time.Clock()
+loop = GameLoop()
 while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.exit()
-    # Fill the screen with black
-    screen.fill(BACKGROUND_COLOR)
-    # Update the game state
-    game_loop.update()
-    # Draw everything
-    game_loop.draw(screen)
-    # Cap the frame rate
-    pygame.time.Clock().tick(60)
-    # Flip the display
+    for e in pygame.event.get():
+        if e.type == pygame.QUIT:
+            pygame.quit(); sys.exit()
+    screen.fill((10,10,18))
+    loop.update()
+    loop.draw(screen)
     pygame.display.flip()
+    clock.tick(60)
