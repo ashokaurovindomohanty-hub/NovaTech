@@ -1,0 +1,3 @@
+Dialogues:
+Oracle Mikasa: "Welcome, my King. Your empire awaits."
+Guard: "The void stirs beyond the gate."
