@@ -1,1 +1,4 @@
-World: Nova Realm - Ruins, Citadel, Void Gate
+Maps:
+Level 1 - Shattered Ruins: tutorial, learn movement + collision
+Level 2 - Star Citadel: hub, NPC quests, shop
+Level 3 - Void Gate: boss arena, final confrontation

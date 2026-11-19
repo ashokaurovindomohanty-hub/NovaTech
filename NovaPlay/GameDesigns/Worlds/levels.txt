@@ -1,0 +1,4 @@
+Levels:
+1. Ruins - Enemies: 3 drones | Objective: Reach the Citadel Gate
+2. Citadel - Enemies: 5 guards | Objective: Collect 3 Star Shards
+3. Void Gate - Enemies: Void Lord | Objective: Defeat boss
