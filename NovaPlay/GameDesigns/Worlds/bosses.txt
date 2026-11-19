@@ -1,0 +1,3 @@
+Bosses:
+Void Lord - Void Gate - HP 5000 - Ability: Black Hole Pulse
+Star Titan - Citadel Core - HP 3000 - Ability: Starforge Hammer
